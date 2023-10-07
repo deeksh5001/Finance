@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+.whole{
+ 
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+ display: flex;
+  min-height: 100vh;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(90deg, #4ae0f1 40%,rgba(83,91,220,1) 100%);
+  padding-right: 2rem;
+  padding-left: 17vw;
+  padding-block-start: 8rem;
+  
+}
+.container2{
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 25px 40px 10px 40px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    height:fit-content;
+    border-radius: 10px;
+    transition: 0.5s ease;
+  }
+  .container2:hover{
+    transform: scale(1.01);
+  }
+  .container2 .text{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    font-size: 41px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    background: -webkit-linear-gradient(right, #9f01ea, #56d1e4, #af25ef);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .container2 form{
+    padding: 10px 0 0 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+  }
+ 
+
+  
+  .container3{
+    background: #ffffff;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 25px 40px 10px 40px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    height:fit-content;
+    margin-left: 13%; 
+    border-radius: 10px;
+    transition: 0.5s ease;
+  }
+  .container3 .text{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7%;
+    font-size: 41px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    background: -webkit-linear-gradient(right, #9f01ea, #56a4e4, #9f01ea);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .container3 form{
+    padding: 15px 0 0 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .container3:hover{
+    transform: scale(1.01);
+  }
+ .inner #sub{
+    border:none;
+    outline:none;
+    width: 10vw;
+    height: 6vh;
+    border-radius:15px;
+    color: #fff;
+    font-weight: 500;
+    background: linear-gradient(90deg, #4ae0f1 40%,rgba(83,91,220,1) 100%);
+ }
