@@ -1,0 +1,186 @@
+/* Update existing styles */
+
+/* Add a background color to the about-us section */
+.about-us {
+  background-color: #c2f3fd;
+  padding: 50px 0;
+}
+
+/* Style the about-section and other sections */
+.about-section,
+.who-we-are-section,
+.vision-section,
+.what-we-offer-section,
+.why-choose-section,
+.join-community-section {
+  background-color: #fff; /* White background for sections */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style headings and paragraphs in sections */
+.about-section h2,
+.who-we-are-section h2,
+.vision-section h2,
+.what-we-offer-section h2,
+.why-choose-section h2,
+.join-community-section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-section p,
+.who-we-are-section p,
+.vision-section p,
+.what-we-offer-section p,
+.why-choose-section p,
+.join-community-section p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Style the list items */
+.what-we-offer-section ul,
+.why-choose-section ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.what-we-offer-section li,
+.why-choose-section li {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Style links */
+a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+/* Add margin to the image */
+.about-us img {
+  display: block;
+  margin: 0 auto 20px; /* Center image and add some space below it */
+  max-width: 100%;
+}
+
+/* Center the section titles */
+.about-section h2,
+.who-we-are-section h2,
+.vision-section h2,
+.what-we-offer-section h2,
+.why-choose-section h2,
+.join-community-section h2 {
+  text-align: center;
+}
+
+/* Center the text content within sections */
+.about-section p,
+.who-we-are-section p,
+.vision-section p,
+.what-we-offer-section p,
+.why-choose-section p,
+.join-community-section p {
+  text-align: center;
+}
+
+/* Center the lists within sections */
+.what-we-offer-section ul,
+.why-choose-section ul {
+  text-align: center;
+}
+
+/* Add some spacing between sections */
+.about-section + *,
+.who-we-are-section + *,
+.vision-section + *,
+.what-we-offer-section + *,
+.why-choose-section + *,
+.join-community-section + * {
+  margin-top: 30px;
+}
+
+/* Center the whole content */
+.about-us {
+  text-align: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  padding: 25px;
+}
+
+/*PRIVACY POLICY*/
+.privacy-policy {
+  max-width: 1000px; /* Adjust this value to control the content width */
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+
+/* Style the headings and paragraphs */
+.privacy-policy h1, .privacy-policy h2, .privacy-policy h3 {
+   
+    color: #333; /* Heading text color */
+    margin-bottom: 10px;
+  }
+  
+  .privacy-policy p {
+      color: #666; /* Paragraph text color */
+     
+  margin-bottom: 20px;
+}
+
+/* TERMS AND CONDITIONS*/
+
+.terms-and-conditions {
+  background-color: #fff; /* Background color for the content box */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  /* Limit the content width */
+  text-align: left; /* Left-align text within the content box */
+  margin: 0 auto;
+  margin-top: 65px;
+  margin-bottom: 65px;
+  width: 1000px;
+  
+}
+.icon{
+  margin-left: 44%;
+}
+h2 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  color: #666;
+}
+
+ul {
+  list-style:circle;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
